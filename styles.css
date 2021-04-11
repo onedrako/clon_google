@@ -40,3 +40,9 @@ header > div {
     justify-content: center;
 
 }
+
+.menu_button{
+    display: flex;
+    align-items: baseline;
+    height: 100%;
+}
