@@ -1,3 +1,9 @@
+:root{
+    --color_footer: #F2F2F2;
+    --font_color_footer: #707D89;
+    --font_style_footer: Arial;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -153,3 +159,82 @@ main{
     color: blue;
 }
 
+footer{
+    display: flex;
+    font-size: calc(1rem + .5vw);
+    flex-wrap: wrap;
+    color: var(--font_color_footer);
+    font-family: var(--font_style_footer);
+    height: 10vh;
+}
+
+/*Seleccion de Pais*/
+
+.country_bar{
+    background-color: var(--color_footer);
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.bottom_bar{
+    background-color: var(--color_footer);
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    flex-wrap: wrap;
+    border-top: var(--font_color_footer) 0.1rem solid;
+}
+
+/*Barra opciones de google*/
+
+.google_options{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.google_options > ul{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+.google_options > ul > li{
+    display: flex;
+    flex-direction: row;
+    flex-grow: .5;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Primera Barra bottom*/
+
+.privacy_options{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.privacy_options > ul{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.privacy_options > ul >li{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
