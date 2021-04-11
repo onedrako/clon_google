@@ -15,14 +15,14 @@ header{
     height: 100%;
     padding-left: 75%;
     flex-direction: row;
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1rem + .5vw);
     margin-top: 2rem;
 }
 
 nav{
     display: flex;
     width: 100vw;
-    /*flex-wrap: wrap;   Esta linea hace que los elementos se reacomoden dependiendo el tamaño de la pantalla*/
+    /*flex-wrap: wrap;   Esta linea hace que los elementos se reacomoden dependiendo el tamaño de la pantalla hacia abajo*/
 }
 
 nav > div {
