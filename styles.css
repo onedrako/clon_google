@@ -45,9 +45,15 @@ main{
 
 /*Barra de Busqueda*/
 
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .search_bar{
     border-radius: 3rem;
-    width: 60vw;
+    width: 40vw;
     height: 4vh;
     border: darkgray solid .0000001rem;
     margin-bottom: 2rem;
@@ -55,6 +61,28 @@ main{
     min-width: 10vw;
     max-height: 4vh;
 }
+
+.magnifying_glass{
+    max-height: 4rem;
+    height: 10vh;
+    border-radius: 3rem;
+    position: absolute;
+    justify-content: left;
+    padding: 1rem;
+    margin-right: 10rem;
+}
+
+.microphone{
+    max-height: 4rem;
+    height: 10vh;
+    border-radius: 3rem;
+    position: absolute;
+    justify-content: left;
+    padding: 1rem;
+    margin-left: 38%;
+}
+
+/*botones*/
 
 .principal_buttons > ul{
     display: flex;
