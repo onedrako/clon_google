@@ -8,7 +8,6 @@ html{
 }
 
 header{
-    background-color: aqua;
     display: flex;
     justify-content: flex-end;
     width: 100vw;
@@ -17,11 +16,13 @@ header{
     flex-direction: row;
     font-size: calc(1rem + .5vw);
     margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
     display: flex;
     width: 100vw;
+    margin-right: 2rem;
     /*flex-wrap: wrap;   Esta linea hace que los elementos se reacomoden dependiendo el tamaño de la pantalla hacia abajo*/
 }
 
@@ -31,8 +32,6 @@ nav > div {
     padding-left: 2rem;
     padding-right: 2rem;
     align-items: center;
-    background-color: red;
-    border: black .1rem solid;
     flex-wrap: wrap;
     flex-grow: 1;
     height: 5rem;
@@ -44,7 +43,7 @@ nav > div {
     border-radius: .5rem;
     min-width: calc(18rem + 2vw);
     justify-content: center;
-
+    color: white;
 }
 
 .menu_button{
