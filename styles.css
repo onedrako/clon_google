@@ -6,3 +6,76 @@
 html{
     font-size: 62.5%;
 }
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Letras google*/
+
+.google{
+    display: flex;
+    font-size: 15rem;
+    flex-direction: row;
+    font-family:'Noto Sans JP', sans-serif;
+    /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');*/
+}
+
+.g{
+    color: #4285F4;
+}
+
+.o1{
+    color: #EA4335;
+}
+
+.o2{
+    color: #FBBC05;
+}
+
+.l{
+    color: #34A853;
+}
+
+/*Barra de Busqueda*/
+
+.search_bar{
+    border-radius: 3rem;
+    width: 60vw;
+    height: 4vh;
+    border: darkgray solid .0000001rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    min-width: 10vw;
+    max-height: 4vh;
+}
+
+.principal_buttons > ul{
+    display: flex;
+}
+
+.principal_buttons > ul >li{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem .5rem;
+    border-radius: 0.5rem;
+    background-color: #F8F9FA;
+    font-size: 1.5rem;
+}
+
+/*Cambio de lenguaje*/
+
+.language{
+    margin: 1rem;
+}
+
+.language > a{
+    text-decoration: none;
+    color: blue;
+}
