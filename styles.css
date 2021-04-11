@@ -19,7 +19,13 @@ header{
     margin-top: 2rem;
 }
 
-header > div {
+nav{
+    display: flex;
+    width: 100vw;
+    /*flex-wrap: wrap;   Esta linea hace que los elementos se reacomoden dependiendo el tamaño de la pantalla*/
+}
+
+nav > div {
     display: flex;
     justify-content: left;
     padding-left: 2rem;
@@ -45,4 +51,5 @@ header > div {
     display: flex;
     align-items: baseline;
     height: 100%;
+    align-items: center;
 }
