@@ -7,6 +7,52 @@ html{
     font-size: 62.5%;
 }
 
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 100%;
+    padding-left: 75%;
+    flex-direction: row;
+    font-size: calc(1rem + .5vw);
+    margin-top: 2rem;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    /*flex-wrap: wrap;   Esta linea hace que los elementos se reacomoden dependiendo el tamaño de la pantalla hacia abajo*/
+}
+
+nav > div {
+    display: flex;
+    justify-content: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    background-color: red;
+    border: black .1rem solid;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 5rem;
+    max-height: 5rem;
+}
+
+.session_button{
+    background-color: #1A73E8;
+    border-radius: .5rem;
+    min-width: calc(18rem + 2vw);
+    justify-content: center;
+
+}
+
+.menu_button{
+    display: flex;
+    align-items: baseline;
+    height: 100%;
+    align-items: center;
+}
 main{
     width: 100vw;
     height: 80vh;
@@ -107,3 +153,4 @@ main{
     text-decoration: none;
     color: blue;
 }
+
